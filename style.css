@@ -1,15 +1,52 @@
 *
 {
-    font-family: Cascadia Code;
+    font-family: monospace;
+    font-size: large;
+    margin: 0;
 }
 
-div
+h1
 {
+    margin: 10px;
+}
+
+
+.blocks
+{
+    display: flex;
+    margin-top: 10px;
+}
+{
+    width: 70px;
+    height: 70px;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
 }
 
-.barra
+.TopBar
 {
-    justify-content: flex-start;
+    background-color: rgb(43, 23, 161);
+    list-style: none;
+    width: auto;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+ul li
+{
+    padding: 5px;
+    border-radius: 3px;
+    border-bottom: 4px solid black;
+    text-align: center;
+    display: inline-block;
+}
+
+ul li a {
+    color: white;
+    display: block;
+    padding: 2px;
+    text-decoration: none;
 }
