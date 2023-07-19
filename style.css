@@ -3,6 +3,7 @@
     font-family: monospace;
     font-size: large;
     margin: 0;
+    text-align: center;
 }
 
 h1
@@ -15,21 +16,23 @@ h1
 {
     display: flex;
     margin-top: 10px;
+    justify-content: center;
 }
 
 .box1
 {
-    width: 70px;
-    height: 70px;
+    width: 150px;
+    height: 150px;
     border: 1px solid black;
     border-radius: 10px;
     margin: 5px;
     text-align: center;
+    
 }
 
 .TopBar
 {
-    background-color: rgb(32, 19, 108);
+    background-color: rgb(45, 25, 161);
     list-style: none;
     width: auto;
     margin: 0;
@@ -40,26 +43,30 @@ h1
 
 ul li
 {
-    padding: 5px;
     border-radius: 3px;
     text-align: center;
     display: inline-block;
 }
 
 ul li a {
+    padding: 5px;
+    margin: 5px;
     width: 100px;
     border-bottom: 4px solid black;
     color: white;
     display: block;
-    padding: 2px;
     text-decoration: none;
-    background-color: rgb(54, 18, 183);
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.416);
+    border-radius: 3px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.416);
 }
 
 ul li a:hover
 {
+    background-color: rgb(30, 12, 135);
+    border-radius: 5px;
+}
 
+footer
+{
+    text-align: center;
 }
