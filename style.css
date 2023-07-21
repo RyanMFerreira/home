@@ -28,6 +28,7 @@ ul li {
 ul li a {
     text-decoration: none;
     border-bottom: 5px solid darkblue;
+    border-radius: 3px;
     margin: auto 5px;
     color: darkblue;
 }
