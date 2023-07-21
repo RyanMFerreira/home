@@ -33,7 +33,7 @@ ul li a {
 }
 
 ul li a:hover{
-    background: linear-gradient(purple, darkblue);
+    background: linear-gradient(rgb(77, 9, 123), darkblue);
     color: white;
     padding: 10px;
     border-radius: 5px;
