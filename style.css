@@ -13,8 +13,8 @@ fieldset {
     background-color: rgb(74, 74, 74);
     color: white;
     border: none;
-    padding: 25px;
-    width: 1000px;
+    padding: 20px;
+    width: 90%;
     margin: auto;
 }
 
@@ -92,5 +92,6 @@ footer p {
 }
 
 img {
+    height: 32px;
     width: 32px;
 }
