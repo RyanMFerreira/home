@@ -14,7 +14,7 @@ fieldset {
     color: white;
     border: none;
     padding: 20px;
-    width: 90%;
+    width: 95%;
     margin: auto;
 }
 
@@ -60,7 +60,7 @@ ul li a {
 }
 
 button {
-    width: 200px;
+    width: 190px;
     height: 56px;
     border: none;
     border-radius: 10px;
